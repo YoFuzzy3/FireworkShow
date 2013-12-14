@@ -1,0 +1,16 @@
+name: FireworkShow
+version: 0.2
+description: Completely automated stunning firework shows!
+author: YoFuzzy3
+main: com.fuzzoland.FireworkShow.Main
+
+commands:
+  FS:
+    description: Alias for /FireworkShow
+  FireworkShow:
+    description: Use /FireworkShow <length> <frequency> <distance>
+
+permissions:
+  FireworkShow.use:
+    description: Allows usage of command /FireworkShow
+    default: op
